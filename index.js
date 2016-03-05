@@ -11,8 +11,8 @@ var through = require('through');
 // ---------------------------------------------------
 var records_count = 100;
 var dbname = 'test';
-var AWS_BUCKET_NAME = 'homair-assetregister';
-var FILENAME = 'my_data2.csv';
+var AWS_BUCKET_NAME = 'YOURBUCKET';
+var FILENAME = 'my_data.csv';
 // ---------------------------------------------------
 
 mongoose.connect('mongodb://localhost/' + dbname);
