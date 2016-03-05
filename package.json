@@ -1,0 +1,22 @@
+{
+  "name": "streams-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Etienne VOILLIOT (cutesquirrel.dev@gmail.com) @cutesquirrel",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "aws-sdk": "^2.2.40",
+    "casual": "^1.5.1",
+    "colour": "^0.7.1",
+    "fast-csv": "^1.0.0",
+    "mongoose": "^4.4.6",
+    "s3-stream-upload": "^2.0.0",
+    "through": "^2.3.8",
+    "underscore": "^1.8.3"
+  }
+}
